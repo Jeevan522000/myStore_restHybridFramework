@@ -8,9 +8,9 @@
     <classes>
       <class name="api.testcases.user_dataDriven_TC">
         <methods>
-          <include name="deleteUser" invocation-numbers="0 1 2 3"/>
+          <include name="deleteUser"/>
           <include name="testCreateUser" invocation-numbers="0 1 2 3"/>
-          <include name="getUser" invocation-numbers="0 1 2 3"/>
+          <include name="getUser"/>
         </methods>
       </class> <!-- api.testcases.user_dataDriven_TC -->
     </classes>
